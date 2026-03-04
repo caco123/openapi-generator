@@ -3,6 +3,9 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "dummy-openapi": ["./dist/dummy-openapi"]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -21,5 +24,13 @@
     "strictInputAccessModifiers": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/dummy-openapi/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/dummy-openapi/tsconfig.spec.json"
+    }
+  ]
 }

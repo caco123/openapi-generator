@@ -1,0 +1,23 @@
+{
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.19.0",
+    "generators": {
+      "v3.0": {
+        "generatorName": "typescript-angular",
+        "output": "#{cwd}/projects/dummy-openapi/src/api/#{name}",
+        "glob": "openapi/*.{json,yaml}",
+        "additionalProperties": {
+          "supportsES6": true,
+          "ngVersion": "21.0.0",
+          "stringEnums": true,
+          "enumPropertyNaming": "camelCase",
+          "typeMappings": {
+            "DateTime": "Date"
+          }
+        }
+      }
+    }
+  }
+}

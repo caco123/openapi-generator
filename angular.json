@@ -6,5 +6,31 @@
   },
   "newProjectRoot": "projects",
   "projects": {
+    "dummy-openapi": {
+      "projectType": "library",
+      "root": "projects/dummy-openapi",
+      "sourceRoot": "projects/dummy-openapi/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular/build:ng-packagr",
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/dummy-openapi/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/dummy-openapi/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular/build:unit-test",
+          "options": {
+            "tsConfig": "projects/dummy-openapi/tsconfig.spec.json"
+          }
+        }
+      }
+    }
   }
 }
