@@ -1,5 +1,5 @@
 {
-  "name": "@caco123/dummy-openapi",
+  "name": "dummy-openapi-library",
   "version": "0.0.1",
   "publishConfig": {
     "access": "public",
