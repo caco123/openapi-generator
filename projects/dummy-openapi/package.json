@@ -1,12 +1,11 @@
 {
   "name": "@caco123/dummy-openapi",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com"
   },
   "repository": {
-    "type": "git",
-    "url": "https://github.com/caco123/openapi-generator.git"
+    "type": "git"
   },
   "peerDependencies": {
     "@angular/common": "^21.2.0",
