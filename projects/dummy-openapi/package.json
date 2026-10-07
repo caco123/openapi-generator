@@ -1,6 +1,6 @@
 {
-  "name": "dummy-openapi-library",
-  "version": "0.0.2",
+  "name": "dummy-openapi",
+  "version": "0.0.1",
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
